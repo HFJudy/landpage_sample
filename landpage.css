@@ -1,0 +1,1328 @@
+/* screen - landpage */
+
+*{
+  margin:0;
+  padding:0;
+
+}
+
+.landpage {
+  align-items: flex-start;
+  background-color: #d1a54c;
+  display: flex;
+  flex-direction: column;
+  height: 3971px;
+  overflow: hidden;
+  width: 1550px;
+}
+
+
+.landpage .bottom {
+  appearance: none; /* 去掉默认样式 */
+border: none; /* 去掉边框 */
+  align-items: flex-end;
+  display: flex;
+  height: 118px;
+  margin-top: -1px;
+  min-width: 1550px;
+  display: inline-block; /* 内联块元素 */
+
+}
+
+.landpage .btn a{
+    margin:0 1rem;
+    font-size: 2rem;
+    color:#fff;
+}
+
+.landpage .btn a:hover{
+    color:#BF6D7D;
+    border-bottom: .1rem solid #BF6D7D;
+    padding-bottom: .5rem;
+}
+
+.landpage .overlap-group4 {
+  align-items: center;
+  background-image: url(../img/rectangle-1.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 135px;
+  min-width: 1550px;
+  padding: 9px 19px;
+}
+
+.landpage .mvhr-final-logo-02 {
+
+  margin-left: 1vh;
+  margin-top: 4vh;
+  width: 39vh;
+  height:auto;
+}
+
+
+
+.landpage .topbutton {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  margin-bottom: -3vh;
+  margin-left: 10vh;
+  padding: 0px 0px 4px 4px;
+  position: relative;
+}
+
+
+
+
+
+.landpage .button-1 {
+  align-items: center;
+  background-color: #936d28;
+  border: 2px solid;
+  border-color: var(--black);
+  box-shadow: -6px 6px 0px #000000;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 5px;
+  justify-content: center;
+  padding: 16px 18px;
+  position: relative;
+     transition: background-color 0.3s;
+}
+
+.landpage .button-1:hover{
+     border: 2px solid;
+       border-color: var(--black);
+   box-shadow: -.55vh .55vh #BF6D7D;
+   background-color: #484B28;
+}
+
+.landpage .sign-up-1 {
+  color: var(--white);
+  font-family: var(--font-family-source_code_pro);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-top: -2.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landpage .group-33 {
+  align-items: center;
+  display: flex;
+  margin-left: 140px;
+  margin-top: 20.49px;
+  min-width: 318px;
+}
+
+
+
+.landpage .component-10 {
+  align-self: flex-end;
+  margin-bottom: 0;
+  width: 76px;
+}
+
+.landpage .line-7 {
+  height: 11px;
+  margin-bottom: 6.4px;
+  margin-left: 16px;
+  object-fit: cover;
+  width: 1px;
+}
+
+.landpage .component-12 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+  padding: 11.12px 0px;
+  width: 99px;
+}
+
+.landpage .text-1 {
+  -webkit-text-stroke: 0.3px var(--ivory);
+  letter-spacing: 1.80px;
+  line-height: 18px;
+  margin-bottom: -6.96px;
+  margin-top: -9.56px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+  transition: background-color 0.3s;
+}
+
+.landpage .text-1 :hover{
+  color:#BF6D7D;
+    -webkit-text-stroke: 0.3px;
+  border-bottom: .1rem solid #EEECE0;
+  padding-bottom: .15rem;
+}
+
+.landpage .line-5 {
+  height: 11px;
+  margin-bottom: 6.4px;
+  margin-left: 11px;
+  object-fit: cover;
+  width: 1px;
+}
+
+.landpage .component-10-1 {
+  margin-left: 46px;
+  width: 54px;
+}
+
+.landpage .text-2 {
+  -webkit-text-stroke: 0.3px var(--ivory);
+  letter-spacing: 1.80px;
+  line-height: 18px;
+  margin-bottom: -6.96px;
+  margin-left: -19.49px;
+  margin-right: -18.89px;
+  margin-top: -9.56px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+.landpage .text-2:hover{
+    color:#BF6D7D;
+      -webkit-text-stroke: 0.3px;
+    border-bottom: .1rem solid #EEECE0;
+    padding-bottom: .15rem;
+}
+
+.landpage .group-32 {
+  align-items: center;
+  display: flex;
+  margin-left: 50px;
+  margin-top: 19.0px;
+  min-width: 454px;
+}
+
+.landpage .line-7-1 {
+  height: 11px;
+  margin-bottom: 5.0px;
+  object-fit: cover;
+  width: 1px;
+}
+
+.landpage .component-10-2 {
+  margin-left: 16px;
+  width: 87px;
+}
+
+.landpage .text {
+  -webkit-text-stroke: 0.3px var(--ivory);
+  letter-spacing: 1.80px;
+  line-height: 18px;
+  margin-bottom: -6.82px;
+  margin-top: -9.42px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+.landpage .text:hover{
+    color:#BF6D7D;
+      -webkit-text-stroke: 0.3px;
+    border-bottom: .1rem solid #EEECE0;
+    padding-bottom: .15rem;
+}
+
+.landpage .line-5-1 {
+  height: 11px;
+  margin-bottom: 1.0px;
+  margin-left: 16px;
+  object-fit: cover;
+  width: 1px;
+}
+
+.landpage .component-10-3 {
+  margin-left: 15px;
+  width: 190px;
+}
+
+.landpage .line-6 {
+  height: 11px;
+  margin-bottom: 1.0px;
+  margin-left: 15px;
+  object-fit: cover;
+  width: 1px;
+}
+
+.landpage .component-11 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+  padding: 11.12px 0px;
+  width: 97px;
+}
+
+.landpage .overlap-group5 {
+  height: 1414px;
+  margin-left: -400px;
+  position: relative;
+  width: 2516px;
+}
+
+.landpage .rectangle-74 {
+  height: 662px;
+  left: 400px;
+}
+
+.landpage .vecteezy_arabic-emir {
+  width: innerWidth;
+  height: auto;
+  left: 401px;
+  position: absolute;
+  top: 0;
+  width: 1547px;
+}
+
+.landpage .oldschool-button-1 {
+  height: 56px;
+  left: 1115px;
+  position: absolute;
+  top: 571px;
+  width: 120px;
+}
+
+.landpage .hovertrue {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  /*
+  margin-bottom: -13.00px;
+  margin-left: -0.00px;
+  margin-right: -14.00px;
+  margin-top: -13.00px;
+  */
+  padding: 0px 0px 4px 4px;
+  position: relative;
+}
+
+.landpage .button {
+  align-items: center;
+  background-color: var(--white);
+  border: 2px solid;
+  border-color: var(--black);
+  box-shadow: -6px 6px 0px #000000;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+     box-shadow: -.55vh .55vh black;
+  padding: 16px 18px;
+  position: relative;
+     transition: background-color 0.3s;
+}
+
+.landpage .button:hover{
+
+       border-color: #535C47;
+   box-shadow: -.55vh .55vh #BF6D7D;
+}
+
+.landpage .sign-up {
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-top: -2.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landpage .line-2 {
+  height: 2px;
+  left: 400px;
+  position: absolute;
+  top: 0;
+  width: 1550px;
+}
+
+.landpage .text-3 {
+  color: var(--black);
+  font-family: var(--font-family-abril_fatface);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  left: 896px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 395px;
+}
+
+.landpage .text-4 {
+  color: var(--black);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  left: 896px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 395px;
+}
+
+.landpage .mvhr-1 {
+  height: 438px;
+  left: 818px;
+  object-fit: cover;
+  position: absolute;
+  top: 116px;
+  width: 714px;
+}
+
+.landpage .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-77.svg);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  left: 400px;
+  min-height: 677px;
+  padding: 123.0px 122.2px;
+  position: absolute;
+  top: 737px;
+  width: 1550px;
+}
+
+.landpage .group-65 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-top: 68px;
+  min-height: 277px;
+  width: 501px;
+}
+
+.landpage .at-magnolias-we-bel {
+  color: var(--tom-thumb);
+  font-family: var(--font-family-pp_editorial_new-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  margin-right: 4.0px;
+  min-height: 175px;
+  width: 497px;
+}
+
+.landpage .book-your-stay-embr {
+  color: var(--tom-thumb);
+  font-family: var(--font-family-pp_editorial_new-regular);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  letter-spacing: 0.90px;
+  line-height: 30px;
+  margin-right: 1.76px;
+  min-height: 76px;
+  text-align: center;
+  width: 411px;
+}
+
+.landpage .span0 {
+  letter-spacing: 0.27px;
+}
+
+.landpage .span1 {
+  font-family: var(--font-family-gloock);
+  letter-spacing: 0.27px;
+}
+
+.landpage .span2 {
+  font-family: var(--font-family-pp_editorial_new-ultrabolditalic);
+  font-style: italic;
+  letter-spacing: 0.27px;
+}
+
+.landpage .oldschool-buttontrue {
+  height: 55px;
+  margin-right: 193.19px;
+  padding: 0px 0px 4px 4px;
+  width: 119px;
+}
+
+.landpage .living-room {
+  height: 505px;
+  left: 592px;
+  position: absolute;
+  top: 813px;
+  width: 610px;
+}
+
+.landpage .c {
+  height: 169px;
+  left: 1126px;
+  position: absolute;
+  top: 663px;
+  width: 117px;
+}
+
+.landpage .group-115 {
+  align-items: center;
+  background-color: var(--ivory);
+  border-radius: 100px;
+  display: flex;
+  gap: 118px;
+  height: 502px;
+  margin-left: -336px;
+  min-width: 2256px;
+  padding: 0 535px;
+}
+
+.landpage .group-79 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 69.0px;
+  min-height: 341px;
+  width: 514px;
+}
+
+.landpage .custom-experiences {
+  color: var(--millbrook);
+  font-family: var(--font-family-aboreto);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  letter-spacing: 1.00px;
+  line-height: 46px;
+  min-height: 133px;
+  width: 510px;
+}
+
+.landpage .span {
+  letter-spacing: 0.48px;
+}
+
+.landpage .span2-1 {
+  font-family: var(--font-family-pp_editorial_new-regular);
+  font-size: 24px;
+  letter-spacing: 0.24px;
+}
+
+.landpage .span3 {
+  font-family: var(--font-family-pp_editorial_new-ultrabolditalic);
+  font-size: 36px;
+  font-style: italic;
+  letter-spacing: 0.36px;
+}
+
+.landpage .every-moment-with-us {
+  color: var(--tom-thumb);
+  font-family: var(--font-family-pp_editorial_new-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0.90px;
+  line-height: 28px;
+  margin-left: 6px;
+  min-height: 196px;
+  width: 463px;
+}
+
+.landpage .vecteezy_dates-fruit {
+  height: 444px;
+  width: 530px;
+}
+
+.landpage .overlap-group6 {
+  background-color: var(--ivory);
+  border-radius: 100px;
+  height: 806px;
+  margin-left: -179px;
+  position: relative;
+  width: 1903px;
+}
+
+.landpage .overlap-group1 {
+  height: 723px;
+  left: 476px;
+  position: absolute;
+  top: 63px;
+  width: 814px;
+}
+
+.landpage .overlap-group-1 {
+  height: 723px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 814px;
+}
+
+.landpage .group {
+  height: 450px;
+  left: 190px;
+  position: absolute;
+  top: 141px;
+  width: 409px;
+}
+
+.landpage .group-1 {
+  height: 219px;
+  left: 104px;
+  position: absolute;
+  top: 0;
+  width: 278px;
+}
+
+.landpage .group-2 {
+  height: 184px;
+  left: 227px;
+  position: absolute;
+  top: 540px;
+  width: 356px;
+}
+
+.landpage .group-3 {
+  height: 230px;
+  left: 0;
+  position: absolute;
+  top: 286px;
+  width: 271px;
+}
+
+.landpage .group-4 {
+  height: 242px;
+  left: 588px;
+  position: absolute;
+  top: 95px;
+  width: 226px;
+}
+
+.landpage .group-5 {
+  height: 243px;
+  left: 302px;
+  position: absolute;
+  top: 231px;
+  width: 243px;
+}
+
+.landpage .vector {
+  height: 250px;
+  left: 299px;
+  position: absolute;
+  top: 228px;
+  width: 250px;
+}
+
+.landpage .vector-1 {
+  height: 44px;
+  left: 288px;
+  position: absolute;
+  top: 477px;
+  width: 63px;
+}
+
+.landpage .group-6 {
+  height: 52px;
+  left: 131px;
+  position: absolute;
+  top: 496px;
+  width: 44px;
+}
+
+.landpage .group-7 {
+  height: 73px;
+  left: 88px;
+  position: absolute;
+  top: 157px;
+  width: 38px;
+}
+
+.landpage .group-8 {
+  height: 38px;
+  left: 265px;
+  position: absolute;
+  top: 252px;
+  width: 32px;
+}
+
+.landpage .group-9 {
+  height: 38px;
+  left: 564px;
+  position: absolute;
+  top: 296px;
+  width: 32px;
+}
+
+.landpage .group-10 {
+  height: 62px;
+  left: 454px;
+  position: absolute;
+  top: 487px;
+  width: 60px;
+}
+
+.landpage .group-11 {
+  height: 62px;
+  left: 493px;
+  position: absolute;
+  top: 146px;
+  width: 60px;
+}
+
+.landpage .what-we-offer {
+  color: var(--ivory);
+  font-family: var(--font-family-pp_editorial_new-ultrabold);
+  font-size: 24px;
+  font-weight: 400;
+  left: 351px;
+  letter-spacing: 1.00px;
+  line-height: 33px;
+  position: absolute;
+  text-align: center;
+  top: 249px;
+}
+
+.landpage .sustainability {
+  left: 156px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.landpage .eco-friendly-homes-w {
+  left: 145px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  position: absolute;
+  text-align: justify;
+  top: 47px;
+}
+
+.landpage .we-welcome-all-guest {
+  left: 613px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  position: absolute;
+  text-align: center;
+  top: 163px;
+  width: 179px;
+}
+
+.landpage .inclusivity {
+  left: 650px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  position: absolute;
+  top: 138px;
+  white-space: nowrap;
+}
+
+.landpage .choosing-magnolias-vh {
+  left: 304px;
+  letter-spacing: 0.90px;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 318px;
+  width: 228px;
+}
+
+.landpage .local-connections {
+  left: 32px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  position: absolute;
+  top: 310px;
+  white-space: nowrap;
+}
+
+.landpage .your-stay-helps-supp {
+  left: 43px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  position: absolute;
+  text-align: center;
+  top: 342px;
+  width: 202px;
+}
+
+.landpage .wellness {
+  left: 341px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  position: absolute;
+  text-align: center;
+  top: 564px;
+  white-space: nowrap;
+}
+
+.landpage .our-spaces-and-exper {
+  left: 245px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  position: absolute;
+  text-align: justify;
+  top: 589px;
+  width: 318px;
+}
+
+.landpage .vector-2 {
+  height: 44px;
+  left: 633px;
+  position: absolute;
+  top: 380px;
+  width: 63px;
+}
+
+.landpage .vector-3 {
+  height: 61px;
+  left: 126px;
+  position: absolute;
+  top: 583px;
+  width: 45px;
+}
+
+.landpage .group-12 {
+  height: 124px;
+  left: 602px;
+  position: absolute;
+  top: 447px;
+  width: 115px;
+}
+
+.landpage .vecteezy_diversity-p {
+  height: 223px;
+  left: 1268px;
+  position: absolute;
+  top: 190px;
+  width: 292px;
+}
+
+.landpage .pngwingcom-8-1 {
+  height: 209px;
+  left: 348px;
+  object-fit: cover;
+  position: absolute;
+  top: 512px;
+  width: 219px;
+}
+
+.landpage .vecteezy_young-woman {
+  height: 304px;
+  left: 1153px;
+  position: absolute;
+  top: 462px;
+  width: 356px;
+}
+
+.landpage .vecteezy_world-envir {
+  height: 214px;
+  left: 377px;
+  object-fit: cover;
+  position: absolute;
+  top: 111px;
+  width: 178px;
+}
+
+.landpage .group-117 {
+  align-items: center;
+  background-color: var(--ivory);
+  border-radius: 100px;
+  display: flex;
+  gap: 25px;
+  height: 777px;
+  margin-left: -291px;
+  min-width: 2131px;
+  padding: 27.0px 446.2px;
+}
+
+.landpage .overlap-group-2 {
+  align-self: flex-end;
+  height: 701px;
+  position: relative;
+  width: 705px;
+}
+
+.landpage .loyalll-1 {
+  height: 693px;
+  left: 34px;
+  position: absolute;
+  top: 8px;
+  width: 671px;
+}
+
+.landpage .invite-magnolias-vhr-1 {
+  height: 540px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 443px;
+}
+
+.landpage .group-119 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 29.0px;
+  min-height: 476px;
+  width: 502px;
+}
+
+.landpage .exclusive-loyalty-program {
+  color: var(--millbrook);
+  font-family: var(--font-family-pp_editorial_new-regular);
+  font-size: 73px;
+  font-weight: 400;
+  letter-spacing: 1.00px;
+  line-height: 73px;
+  min-height: 200px;
+  width: 424px;
+}
+
+.landpage .span0-1 {
+  letter-spacing: 0.73px;
+  line-height: 60px;
+}
+
+.landpage .span-1 {
+  letter-spacing: 0.48px;
+  line-height: 60px;
+}
+
+.landpage .span2-2 {
+  font-size: 81px;
+  letter-spacing: 0.81px;
+  line-height: 72px;
+}
+
+.landpage .span4 {
+  font-family: var(--font-family-pp_editorial_new-ultralightitalic);
+  font-size: 84px;
+  font-style: italic;
+  letter-spacing: 0.84px;
+  line-height: 72px;
+}
+
+.landpage .with-our-loyalty-pro {
+  color: var(--tom-thumb);
+  font-family: var(--font-family-pp_editorial_new-regular);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  letter-spacing: 0.90px;
+  line-height: 28px;
+  min-height: 111px;
+  text-align: justify;
+  width: 496px;
+}
+
+.landpage .its-our-way-of-sayi {
+  color: var(--tom-thumb);
+  font-family: var(--font-family-pp_editorial_new-italic);
+  font-size: var(--font-size-s);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.90px;
+  line-height: 21px;
+  margin-left: 3px;
+  min-height: 55px;
+  width: 443px;
+}
+
+.landpage .oldschool-buttontrue-1 {
+  align-items: center;
+  align-self: center;
+  border-radius: 100px;
+  display: inline-flex;
+  justify-content: center;
+  margin-right: 106.54px;
+  padding: 0px 0px 4px 4px;
+  position: relative;
+}
+
+.landpage .footer {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  justify-content: flex-end;
+  margin-left: -10px;
+  margin-top: 14px;
+  min-width: 1570px;
+  width: auto;
+}
+
+.landpage .overlap-group3 {
+  height: 321px;
+  position: relative;
+  width: 1576px;
+}
+
+.landpage .rectangle-51 {
+  height: 295px;
+  left: 5px;
+}
+
+.landpage .group-24 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  left: 0;
+  min-height: 274px;
+  position: absolute;
+  top: 47px;
+  width: 1576px;
+}
+
+.landpage .flex-row {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  gap: 185px;
+  margin-left: 5.7px;
+  min-width: 1358px;
+}
+
+.landpage .flex-row-1 {
+  align-items: center;
+  display: flex;
+  gap: 126px;
+  height: 207px;
+  min-width: 911px;
+}
+
+.landpage .mvhr-new-logo-finalized {
+  height: 83px;
+  margin-bottom: 6.25px;
+  object-fit: cover;
+  width: 305px;
+}
+
+.landpage .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 207px;
+  width: 480px;
+}
+
+.landpage .subscribe {
+  color: var(--ivory);
+  font-family: var(--font-family-pp_editorial_new-regular);
+  font-size: 25px;
+  font-weight: 400;
+  height: 31px;
+  letter-spacing: 0.90px;
+  line-height: 30.6px;
+  margin-right: 6.0px;
+  text-align: center;
+  text-decoration: underline;
+  width: 142px;
+}
+
+.landpage .sign-up-for-our-thrilling-email-list {
+  -webkit-text-stroke: 0.3px var(--ivory);
+  height: 17px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  margin-bottom: -9px;
+  margin-right: 5.6px;
+  margin-top: 15px;
+  text-align: center;
+  white-space: nowrap;
+  width: 335px;
+}
+
+.landpage .we-respect-your-privacy {
+  -webkit-text-stroke: 0.3px var(--ivory);
+  height: 17px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  margin-bottom: -9px;
+  margin-right: 5.6px;
+  margin-top: 77px;
+  text-align: center;
+  white-space: nowrap;
+  width: 241px;
+}
+
+.landpage .footer-text-menu {
+  align-items: center;
+  display: flex;
+  margin-top: 24px;
+  min-width: 480px;
+}
+
+.landpage .component-12-1 {
+  align-items: center;
+  display: inline-flex;
+  height: 26px;
+  justify-content: center;
+  padding: 11.12px 0px;
+  position: relative;
+}
+
+.landpage .text-5 {
+  -webkit-text-stroke: 0.3px var(--ivory);
+  letter-spacing: 1.80px;
+  line-height: 18px;
+  margin-bottom: -5.70px;
+  margin-left: -0.30px;
+  margin-top: -8.30px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landpage .text-6 {
+  -webkit-text-stroke: 0.3px var(--ivory);
+  height: 18px;
+  letter-spacing: 1.80px;
+  line-height: 18px;
+  margin-bottom: 0.85px;
+  margin-left: 43px;
+  min-width: 119px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.landpage .text-7 {
+  -webkit-text-stroke: 0.3px var(--ivory);
+  height: 12px;
+  letter-spacing: 1.80px;
+  line-height: 18px;
+  margin-bottom: 0.85px;
+  margin-left: 34px;
+  text-align: center;
+  white-space: nowrap;
+  width: 131px;
+}
+
+.landpage .text-8 {
+  -webkit-text-stroke: 0.3px var(--ivory);
+  height: 12px;
+  letter-spacing: 1.80px;
+  line-height: 18px;
+  margin-bottom: 0.85px;
+  margin-left: 20px;
+  text-align: center;
+  white-space: nowrap;
+  width: 84px;
+}
+
+.landpage .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 196px;
+  width: 262px;
+}
+
+.landpage .place {
+  color: var(--ivory);
+  font-family: var(--font-family-pp_editorial_new-regular);
+  font-size: 25px;
+  font-weight: 400;
+  height: 31px;
+  letter-spacing: 0.90px;
+  line-height: 30.6px;
+  margin-left: 17px;
+  text-align: center;
+  text-decoration: underline;
+  width: 179px;
+}
+
+.landpage .phone {
+  -webkit-text-stroke: 0.3px var(--ivory);
+  height: 17px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  margin-bottom: -9px;
+  margin-left: 0.7px;
+  margin-top: 32px;
+  white-space: nowrap;
+}
+
+.landpage .wecaremagnolaisvhrcom {
+  -webkit-text-stroke: 0.3px var(--ivory);
+  height: 17px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  margin-bottom: -9px;
+  margin-left: 0.7px;
+  margin-top: 16px;
+  white-space: nowrap;
+}
+
+.landpage .dubai-united-arab-emirates {
+  -webkit-text-stroke: 0.3px var(--ivory);
+  height: 17px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  margin-bottom: -9px;
+  margin-left: 0.7px;
+  margin-top: 8px;
+  white-space: nowrap;
+}
+
+.landpage .social-media-icon {
+  align-items: flex-start;
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+  min-width: 214px;
+  transformation: .4s;
+}
+
+.landpage .social-media-icon :hover{
+  height: 35px;
+  object-fit: cover;
+  width: 35px;
+}
+
+.landpage .social-media-icon-item {
+  height: 33px;
+  object-fit: cover;
+  width: 31px;
+}
+
+
+
+
+.landpage .overlap-group-3 {
+  align-items: flex-end;
+  background-color: var(--tom-thumb);
+  display: flex;
+  height: 41px;
+  min-width: 1560px;
+  padding: 9px 706px;
+}
+
+.landpage .copyright {
+  color: #f9bc61;
+  font-family: var(--font-family-pp_editorial_new-regular);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  height: 17px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  white-space: nowrap;
+  width: 147px;
+}
+
+.landpage .group-48 {
+  align-items: flex-end;
+  display: flex;
+  gap: 10px;
+  height: 50px;
+  left: 584px;
+  min-width: 395px;
+  position: absolute;
+  top: 123px;
+}
+
+.landpage .overlap-group1-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 49px;
+  min-width: 281px;
+  padding: 15.7px 12.7px;
+}
+
+.landpage .email-address {
+  -webkit-text-stroke: 0.3px var(--ivory);
+  color: #3b4220;
+  font-family: var(--font-family-good_times-regular);
+  font-size: 10px;
+  font-weight: 400;
+  height: 17px;
+  letter-spacing: 0.90px;
+  line-height: 26px;
+  opacity: 0.3;
+  white-space: nowrap;
+}
+
+.landpage .oldschool-button-2 {
+  height: 50px;
+  position: relative;
+  width: 102px;
+}
+
+.landpage .inputBox {
+  width: 100%; /* 宽度为100% */
+   padding: 10px; /* 内边距 */
+   border: 0px solid #fff; /* 边框颜色和宽度 */
+   border-radius: 5px; /* 圆角边框 */
+   font-size: 20px; /* 字体大小 */
+   color: #535C47; /* 字体颜色 */
+   background-color: #f9f9f9; /* 背景颜色 */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.landpage input:focus {
+    border-color: #4CAF50; /* 聚焦时边框颜色 */
+    outline: none; /* 去掉默认的轮廓 */
+    background-color: #fff; /* 聚焦时背景颜色 */
+}
+.landpage .hovertrue-1 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  margin-bottom: -16.00px;
+  margin-left: -14.50px;
+  margin-right: -14.50px;
+  margin-top: -16.00px;
+  padding: 0px 0px 4px 4px;
+  position: relative;
+}
+
+.landpage .component {
+  height: 24px;
+  position: relative;
+}
+
+.landpage .component-10-4 {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  justify-content: center;
+  padding: 11.12px 0px;
+  position: relative;
+}
+
+.landpage .oldschool {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.landpage .oldschool-button-3 {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 16px;
+}
+
+.landpage .rectangle {
+  position: absolute;
+  top: 0;
+  width: 1550px;
+}

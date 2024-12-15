@@ -1,0 +1,59 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:600|Abril+Fatface:400|Mulish:400|Gloock:400|Aboreto:400");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/675db2bb239b1bd982df56ac.675db2bb239b1bd982df56af.WQl2tA5.hcp.png");
+
+@font-face {
+  font-family: "PP Editorial New-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/PPEditorialNew-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "PP Editorial New-UltralightItalic";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/PPEditorialNew-Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: "PP Editorial New-Italic";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/PPEditorialNew-Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Good Times-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/good times rg.ttf") format("truetype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: -3vh;
+}
+
+* {
+  box-sizing: border-box;
+}
